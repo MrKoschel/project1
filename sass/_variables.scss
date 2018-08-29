@@ -1,3 +1,20 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;	
+	font-family: 'Open Sans', sans-serif;
+}
+.clearfix::before, .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
 /* Colors */
 $paragraph-color: #000000;
 $brand-main-color: #ff0000;

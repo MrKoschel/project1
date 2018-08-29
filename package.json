@@ -17,21 +17,21 @@
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watch": "npm-run-all build -p watch:*",
     "watch:sassprefixer": "onchange scss/style.scss -d 100 -- npm run watch:sass watch:prefixer",
-    "watch:sass": "node-sass --output-style expanded --source-map true -o css scss",
-    "watch:prefixer": "autoprefixer-cli -o css/style.css",
+    "watch:sass": "node-sass --output-style expanded --source-map true -o css sass",
+    "watch:prefixer": "autoprefixer-cli -o css/style.css css/style.css",
     "watch:browsersync": "node_modules/.bin/browser-sync start --server --files css/*.css *.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bigpope/nauka-gita.git"
+    "url": "git+https://github.com/bigpope/project1.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bigpope/nauka-gita/issues"
+    "url": "https://github.com/bigpope/project1/issues"
   },
-  "homepage": "https://github.com/bigpope/nauka-gita#readme",
+  "homepage": "https://github.com/bigpope/project1#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
     "browser-sync": "^2.24.6",
