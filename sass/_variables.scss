@@ -2,7 +2,9 @@
 	box-sizing: border-box;
 }
 body {
-	margin: 0;	
+    margin: 0;
+    padding: 0 50px;
+	background-color: #0E0E0E;
 	font-family: 'Open Sans', sans-serif;
 }
 .clearfix::before, .clearfix::after {
@@ -12,7 +14,6 @@ body {
 }
 .container {
 	width: 100%;
-	max-width: 1200px;
 	margin: auto;
 }
 /* Colors */

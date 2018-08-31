@@ -339,3 +339,13 @@ template {
 [hidden] {
   display: none;
 }
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+  color:inherit;
+  text-decoration: none;
+}
