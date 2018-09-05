@@ -1,23 +1,36 @@
+.sidebar-hidden {
+    transition: 0.6;
+    left: -16.66%;
+}
 .sidebar {
     background-color: #191919;
     color: #737373;
+    left: 0;
     padding-right: 0;
     padding-left: 0;
     text-align: left;
     height: 100vh;
     position: fixed;
     nav {
+        .menu-icon-active {
+        background-color: #282828;
+        color: #C8C8C8;
+        border-left: 4px solid #f58220;
+        }
         a {
+        border-left: 4px solid #191919;
         padding: 12px;
         width: 100%;
         float: left;
         &:hover {
         background-color: #282828;
         color: #C8C8C8;
+        border-left: 4px solid #f58220;
     }
         &:active {
         background-color: #282828;
         color: #C8C8C8;
+        border-left: 4px solid #f58220;
     }
         }
         .logo {
@@ -26,6 +39,12 @@
         }
         h3, h1, div, a {
             padding-left: 15px;
+        }
+        a {
+            .icon-center {
+                width: 40px;
+                text-align: center;
+            }
         }
         h3 {
             overflow: hidden;

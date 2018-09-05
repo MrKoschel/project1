@@ -1,8 +1,9 @@
-button {
+.button {
     background-color: #F58220;
     border: 1px solid #F58220;
     border-radius: 5px;
     color: white;
+    cursor: pointer;
 }
 .button-wide {
     padding: 10px 20px;
@@ -10,4 +11,30 @@ button {
 .button-narrow {
     padding: 12px 14px;
     font-size-adjust: auto;
+}
+.hamburger {
+    background-color: inherit;
+    border: none;
+    color: #999999;
+    float: right;
+    font-size: 30px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: -40px;
+    &:focus {
+        background-color: #999999;
+        color: #191919;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+    &:hover {
+        background-color: #999999;
+        color: #191919;
+        border-radius: 20%;
+        cursor: pointer;
+    }
+}
+.hamburger-hidden {
+    left: 70px;
+    top: -60px;
 }

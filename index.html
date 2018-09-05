@@ -8,18 +8,22 @@
         <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	</head>
-<body>
+<body class="general-page">
+    <script src="js/script.js"></script>
     <div class="row">
-        <div class="col-2 sidebar">
+        <div id="sidebar" class="col-2 sidebar">
             <nav class=" container clearfix">
-                <h1 class="logo">Just do it</h1>
-                <a href="#"><i class="fa fa-star"></i> General</a>
-                <a href="#"><i class="fas fa-list"></i> Details</a>
-                <a href="#"><i class="fa fa-link"></i> Links</a>
-                <a href="#"><i class="fas fa-object-ungroup"></i> Banners</a>
-                <a href="#"><i class="fa fa-user"></i> Personal data</a>
-                <a href="#"><i class="fas fa-dollar-sign"></i> Payout</a>
-                <a href="#" class="last-a"><i class="fas fa-retweet"></i> Postback</a>
+                <div class="menu-headline">
+                    <h1 class="logo">Just do it</h1>
+                    <button id="hamburger" class="hamburger"><i class="fas fa-bars"></i></button>
+                </div>
+                <a class="menu-icon-active" href="#"><i class="icon-center fa fa-star"></i> General</a>
+                <a href="#"><i class="icon-center fas fa-list"></i> Details</a>
+                <a href="#"><i class="icon-center fa fa-link"></i> Links</a>
+                <a href="#"><i class="icon-center fas fa-object-ungroup"></i> Banners</a>
+                <a href="#"><i class="icon-center fa fa-user"></i> Personal data</a>
+                <a href="#"><i class="icon-center fas fa-dollar-sign"></i> Payout</a>
+                <a href="#" class="last-a"><i class="icon-center fas fa-retweet"></i> Postback</a>
                 <h3>YOUR MANAGER</h3>
                 <div class="manager">
                     <div class="manager-photo"></div>
@@ -27,10 +31,10 @@
                 </div>
             </nav>
         </div>
-        <div class="main-section col-10">
-            <header>
+<div id="main-section" class="main-section col-10 col-offset-2">
+    <header>
         <div class="container clearfix">
-            <ul>
+            <ul class="clearfix">
                 <li><a href="#"><i class="fas fa-sign-out-alt"></i></a></li>
                 <li><a href="#"><i class="fas fa-bell"></i></a></li>
                 <li><a href="#"><i class="fa fa-user-circle"></i> Bruce Wayne</a></li>
@@ -38,52 +42,52 @@
             </ul>
         </div>
     </header>
-		<section class="general container clearfix">
-			<div class="general-title"><h3>GENERAL STATISTICS</h3></div>
-            <div class="general-date">
-                
-                
-                <button class="button-narrow"><i class="fas fa-undo"></i></button>
-            </div>
-            <div class="general-table">
-                <div class="general-table-stats">
-                    <div>
-                        <p>Visit signups</p>
-                        <h2>332</h2>
-                    </div>
-                    <div>
-                        <p>Net deposit</p>
-                        <h2>876</h2>
-                    </div>
-                    <div>
-                        <p>FTD</p>
-                        <h2>390</h2>
-                    </div>
-                    <div>
-                        <p>Turn over</p>
-                        <h2>621</h2>
-                    </div>
+    <section class="card general container clearfix">
+        <div class="general-title"><h3>GENERAL STATISTICS</h3></div>
+        <div class="general-date">
+
+
+            <button class="button button-narrow"><i class="fas fa-undo"></i></button>
+        </div>
+        <div class="general-table">
+            <div class="general-table-stats">
+                <div class="col-6">
+                    <p>Visit signups</p>
+                    <h2>332</h2>
                 </div>
-                <h3>Earnings chart</h3>
-                <ul>
-                    <li>Signups</li>
-                    <li>FTD</li>
-                    <li>Earned</li>
-                </ul>
-                <img src="diagram.png" alt="diagram">
-            
+                <div class="col-6">
+                    <p>Net deposit</p>
+                    <h2>876</h2>
+                </div>
+                <div class="col-6">
+                    <p>FTD</p>
+                    <h2>390</h2>
+                </div>
+                <div class="col-6">
+                    <p>Turn over</p>
+                    <h2>621</h2>
+                </div>
             </div>
-		</section>
-    <section class="links container clearfix">
+            <h3>Earnings chart</h3>
+            <ul>
+                <li>Signups</li>
+                <li>FTD</li>
+                <li>Earned</li>
+            </ul>
+            <img src="diagram.png" alt="diagram">
+
+        </div>
+    </section>
+    <section class="card links container clearfix">
         <h3>LINKS</h3>
-        <button class="button-wide">+ add new</button>
+        <button class="button button-wide">+ add new</button>
         <div>
         
         </div>
         <div>
         
         </div>
-        <button class="button-wide">+ add new</button>
+        <button class="button button-wide">+ add new</button>
     </section>
         </div>
     </div>   

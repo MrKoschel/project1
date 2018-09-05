@@ -3,8 +3,6 @@
 }
 body {
     margin: 0;
-    padding: 0 50px;
-	background-color: #0E0E0E;
 	font-family: 'Open Sans', sans-serif;
 }
 .clearfix::before, .clearfix::after {
@@ -15,6 +13,12 @@ body {
 .container {
 	width: 100%;
 	margin: auto;
+}
+.card {
+    width: 98%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    margin-top: 20px;
 }
 /* Colors */
 $paragraph-color: #000000;
