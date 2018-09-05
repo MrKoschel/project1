@@ -22,10 +22,7 @@
     transform: translate(-50%, -50%);
     top: -40px;
     &:focus {
-        background-color: #999999;
-        color: #191919;
-        border-radius: 20%;
-        cursor: pointer;
+        outline: none;
     }
     &:hover {
         background-color: #999999;
