@@ -1,9 +1,13 @@
 .button {
     background-color: #F58220;
-    border: 1px solid #F58220;
+    border: 2px solid #F58220;
     border-radius: 5px;
     color: white;
     cursor: pointer;
+    &:hover {
+        background-color: white;
+        color: #F58220;
+    }
 }
 .button-wide {
     padding: 10px 20px;

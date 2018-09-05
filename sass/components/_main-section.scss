@@ -29,6 +29,12 @@
                     padding: 20px 20px;
                     float: right;
                     border-left: 1.3px solid #e3e3e3;
+                    .header-profile-name {
+                        color: #56819f;
+                        i {
+                            color: #9c9c9c;
+                        }
+                    }
                 }
             }
         }

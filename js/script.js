@@ -1,8 +1,8 @@
 "use strict";
 
-var hamburger = document.getElementsById("hamburger");
-var sidebar = document.getElementsById("sidebar");
-var mainSection = document.getElementsById("main-section");
+var hamburger = document.getElementById("hamburger");
+var sidebar = document.getElementById("sidebar");
+var mainSection = document.getElementById("main-section");
 var hideStatus = 0
 
 hamburger.addEventListener("click", function() {
