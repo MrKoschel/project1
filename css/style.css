@@ -25,6 +25,12 @@ body {
   margin-top: 20px;
 }
 
+.main-title {
+  text-align: left;
+  border-bottom: 1px solid #e3e3e3;
+  padding-left: 20px;
+}
+
 /* Colors */
 /* Font sizes */
 /* Fonts */
@@ -425,6 +431,54 @@ a {
   margin-left: 91.66%;
 }
 
+.col-offset-r-0 {
+  margin-right: 0;
+}
+
+.col-offset-r-1 {
+  margin-right: 8.33%;
+}
+
+.col-offset-r-2 {
+  margin-right: 16.66%;
+}
+
+.col-offset-r-3 {
+  margin-right: 25%;
+}
+
+.col-offset-r-4 {
+  margin-right: 33.33%;
+}
+
+.col-offset-r-5 {
+  margin-right: 41.66%;
+}
+
+.col-offset-r-6 {
+  margin-right: 50%;
+}
+
+.col-offset-r-7 {
+  margin-right: 58.33%;
+}
+
+.col-offset-r-8 {
+  margin-right: 66.66%;
+}
+
+.col-offset-r-9 {
+  margin-right: 75%;
+}
+
+.col-offset-r-10 {
+  margin-right: 83.33%;
+}
+
+.col-offset-r-11 {
+  margin-right: 91.66%;
+}
+
 @media screen and (max-width: 767px) {
   /* For tablets: */
   .col-s-1 {
@@ -652,14 +706,33 @@ a {
   background-color: #FFFFFF;
 }
 
-.main-section .general .general-title {
-  text-align: left;
-  border-bottom: 1px solid #e3e3e3;
-  padding-left: 20px;
+.main-section .general .general-date form {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
-.main-section .general .general-table .general-table-stats div h2 {
+.main-section .general .general-table .general-table-stats div {
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+.main-section .general .general-table .general-table-stats div p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.main-section .general .general-table .general-table-stats div .stats-bold {
   color: black;
+  text-align: right;
+}
+
+.main-section .general .general-table .general-table-stats div .stats-normal {
+  text-align: left;
 }
 
 .main-section header div ul {
@@ -679,5 +752,50 @@ a {
 
 .main-section header div ul li .header-profile-name i {
   color: #9c9c9c;
+}
+
+.main-section .links button {
+  margin: 25px;
+}
+
+.main-section .links .links-link-first {
+  border-top: 1px solid #e3e3e3;
+}
+
+.main-section .links .links-link {
+  margin-right: 16.66%;
+  transition: 0.6s;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.main-section .links .links-link:hover {
+  background-color: #f1f3f3;
+}
+
+.main-section .links .links-link:hover > i {
+  opacity: 1;
+}
+
+.main-section .links .links-link p {
+  display: inline-block;
+  color: #b8b8b8;
+}
+
+.main-section .links .links-link a {
+  color: #93aebf;
+}
+
+.main-section .links .links-link .links-icon1 {
+  margin-right: 15px;
+  margin-left: 50px;
+  color: #f3b682;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.main-section .links .links-link .links-icon2 {
+  color: #bfc0c0;
+  opacity: 0;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
