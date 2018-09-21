@@ -608,12 +608,8 @@ a {
   top: -60px;
 }
 
-.sidebar-hidden {
-  transition: 0.6;
-  left: -16.66%;
-}
-
 .sidebar {
+  transition: 0.6s;
   background-color: #191919;
   color: #737373;
   left: 0;
@@ -691,12 +687,19 @@ a {
   margin-right: 10px;
 }
 
+.sidebar-hidden {
+  transition: 0.6s;
+  left: -16.66%;
+}
+
 .main-section-fs {
   width: 100%;
   margin-left: 0;
+  transition: 0.6s;
 }
 
 .main-section {
+  transition: 0.6s;
   color: #ACACAC;
   background-color: #F5F5F2;
   padding: 0;

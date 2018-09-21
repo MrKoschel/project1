@@ -1,8 +1,5 @@
-.sidebar-hidden {
-    transition: 0.6;
-    left: -16.66%;
-}
 .sidebar {
+    transition: 0.6s;
     background-color: #191919;
     color: #737373;
     left: 0;
@@ -73,4 +70,8 @@
             }
         }
     }
+}
+.sidebar-hidden {
+    transition: 0.6s;
+    left: (-16.66%);
 }
