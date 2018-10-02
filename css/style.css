@@ -31,6 +31,10 @@ body {
   padding-left: 20px;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Colors */
 /* Font sizes */
 /* Fonts */
@@ -587,9 +591,10 @@ a {
   color: #999999;
   float: right;
   font-size: 30px;
-  position: relative;
   transform: translate(-50%, -50%);
-  top: -40px;
+  top: 15px;
+  position: absolute;
+  right: 0;
 }
 
 .hamburger:focus {
@@ -604,8 +609,8 @@ a {
 }
 
 .hamburger-hidden {
-  left: 70px;
-  top: -60px;
+  right: -70px;
+  top: 0;
 }
 
 .sidebar {
@@ -618,6 +623,12 @@ a {
   text-align: left;
   height: 100vh;
   position: fixed;
+}
+
+.sidebar nav .menu-headline {
+  position: relative;
+  display: block;
+  height: 80px;
 }
 
 .sidebar nav .menu-icon-active {
@@ -714,14 +725,19 @@ a {
   display: inline-flex;
 }
 
+.main-section .general .general-table .general-table-stats {
+  overflow: hidden;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .main-section .general .general-table .general-table-stats div {
-  padding-left: 0;
-  padding-right: 0;
-  border-bottom: 2px solid #f7f7f7;
+  padding: 12px 10px;
 }
 
 .main-section .general .general-table .general-table-stats div p {
-  padding-bottom: 0;
+  border-bottom: 2px solid #f7f7f7;
+  padding-bottom: 10px;
   margin-bottom: 0;
   margin-top: 0;
   padding-top: 0;
@@ -766,6 +782,10 @@ a {
 }
 
 .main-section .links .links-link {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
   margin-right: 16.66%;
   transition: 0.6s;
   border-bottom: 1px solid #e3e3e3;
@@ -782,10 +802,15 @@ a {
 .main-section .links .links-link p {
   display: inline-block;
   color: #b8b8b8;
+  margin-right: 100px;
+  white-space: nowrap;
 }
 
 .main-section .links .links-link a {
   color: #93aebf;
+  display: block;
+  width: 100%;
+  text-align: left;
 }
 
 .main-section .links .links-link .links-icon1 {
