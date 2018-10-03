@@ -12,7 +12,11 @@
         .menu-headline {
             position: relative;
             display: block;
-            height: 80px;
+            height: 68px;
+            h1 {
+                padding-right: 20px;
+                margin: 0;
+            }
         }
         .menu-icon-active {
             background-color: #282828;
@@ -24,6 +28,7 @@
             padding: 12px;
             width: 100%;
             float: left;
+            display: flex;
             &:hover {
             background-color: #282828;
             color: #C8C8C8;
